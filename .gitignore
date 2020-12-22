@@ -1,0 +1,5 @@
+node_modules
+output*
+*.tsv
+*.zip
+/japanese.js
