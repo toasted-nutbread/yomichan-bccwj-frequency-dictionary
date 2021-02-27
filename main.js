@@ -6,7 +6,7 @@ function evalFile(fileName, returnValue) {
     return (new Function(`${japaneseSource};return ${returnValue};`))();
 }
 
-const JapaneseUtil = evalFile('./japanese.js', 'JapaneseUtil');
+const JapaneseUtil = evalFile('./japanese-util.js', 'JapaneseUtil');
 const jp = new JapaneseUtil(null);
 
 function convertReadingToHiragana(reading, expression) {

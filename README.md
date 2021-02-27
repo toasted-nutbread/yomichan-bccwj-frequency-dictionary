@@ -15,7 +15,7 @@ The generated dictionary file does not contain part-of-speech information, as Yo
 ### Prerequisites
 
 This script uses a component from [Yomichan](https://github.com/FooSoft/yomichan)'s implementation,
-specifically the `JapaneseUtil` class from [japanese.js](https://github.com/FooSoft/yomichan/blob/master/ext/mixed/js/japanese.js).
+specifically the `JapaneseUtil` class from [japanese-util.js](https://github.com/FooSoft/yomichan/blob/master/ext/js/language/japanese-util.js).
 
 This file must be manually copied into the same directory as main.js in order for the script to work.
 
