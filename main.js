@@ -12,7 +12,7 @@ const jp = new JapaneseUtil(null);
 function convertReadingToHiragana(reading, expression) {
     const segments = jp.distributeFurigana(expression, reading);
     let newReading = '';
-    for (const {text, furigana} of segments) {
+    for (const {text, reading: furigana} of segments) {
         if (furigana.length > 0) {
             newReading += jp.convertKatakanaToHiragana(furigana);
         } else {
