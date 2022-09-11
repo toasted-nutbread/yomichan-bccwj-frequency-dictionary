@@ -6,8 +6,8 @@ The generated dictionary file does not contain part-of-speech information, as Yo
 
 ## Links
 
-* https://pj.ninjal.ac.jp/corpus_center/bccwj/en/
-* https://pj.ninjal.ac.jp/corpus_center/bccwj/en/freq-list.html
+* https://clrd.ninjal.ac.jp/bccwj/en/
+* https://clrd.ninjal.ac.jp/bccwj/en/freq-list.html
 * https://link.springer.com/article/10.1007/s10579-013-9261-0
 
 ## Usage
